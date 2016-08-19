@@ -1,6 +1,6 @@
-import Parent from '../../../src/components/parent.jsx';
-import fixture from '../../fixtures/parent/base.js';
-import { render, stubMethod } from '../../helpers.js';
+import Parent from '../parent.jsx';
+import fixture from '../fixtures/base.js';
+import { render, stubMethod } from '../../../../tests/helpers.js';
 import React from 'react/addons';
 import $ from 'jquery';
 

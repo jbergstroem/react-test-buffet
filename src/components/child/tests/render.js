@@ -1,6 +1,6 @@
-import Child from '../../../src/components/child.jsx';
-import fixture from '../../fixtures/child/base.js';
-import { render } from '../../helpers.js';
+import Child from '../child.jsx';
+import fixture from '../fixtures/base.js';
+import { render } from '../../../../tests/helpers.js';
 import $ from 'jquery';
 
 

@@ -50,7 +50,7 @@
     "react": "^0.13.3"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel-register --recursive tests/setup-node.js tests/components/",
+    "test": "mocha --compilers js:babel-register --recursive tests/setup-node.js src/components/**/tests",
     "test:browser": "npm run test:browser:build && karma start tests/conf/karma/base.js",
     "test:browser:build": "webpack --config tests/conf/webpack/base.babel.js --bail",
     "test:coverage": "npm run test:coverage:build && karma start tests/conf/karma/coverage.js",

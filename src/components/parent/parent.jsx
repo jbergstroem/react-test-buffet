@@ -1,5 +1,5 @@
 import React from 'react';
-import Child from './child.jsx';
+import Child from '../child/child.jsx';
 import { Component } from 'react-component-tree';
 
 

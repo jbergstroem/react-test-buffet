@@ -1,6 +1,6 @@
-import Child from '../../../src/components/child.jsx';
-import fixture from '../../fixtures/child/base.js';
-import { render, stubMethod } from '../../helpers.js';
+import Child from '../child.jsx';
+import fixture from '../fixtures/base.js';
+import { render, stubMethod } from '../../../../tests/helpers.js';
 
 
 describe('Child', function() {
